@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Pizza Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- this is the header of the website  -->
+    <header>
+        <!-- nav bar start from here -->
+        <nav class="navBar flex">
+            <!-- Logo Section -->
+            <div class="logo-div">
+                <figure>
+                    <img src="assests/images/logo/foodlogo.png" alt="Food Logo">
+                </figure>
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links-list flex">
+                <li class="nav-links-item active">
+                    <a href="#" class="link active-link" style="color: #fff;">Home</a>
+                </li>
+                <li class="nav-links-item">
+
+                    <a href="#" class="link">Service</a>
+
+                </li>
+                <li class="nav-links-item">
+                    <a href="#" class="link">Menu</a>
+
+                </li>
+                <li class="nav-links-item">
+                    <a href="#" class="link">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Search, Shopping, and Login Section -->
+            <div class="login-search-shoping-container flex">
+                <div class="search-div">
+                    <figure>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="#7b7a7b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-search">
+                            <circle cx="11" cy="11" r="8" />
+                            <path d="m21 21-4.3-4.3" />
+                        </svg>
+                    </figure>
+                </div>
+                <div class="shop-div">
+                    <figure>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="#7b7a7b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-shopping-bag">
+                            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+                            <path d="M3 6h18" />
+                            <path d="M16 10a4 4 0 0 1-8 0" />
+                        </svg>
+                    </figure>
+                </div>
+                <a href="#" class="login-btn-div flex">
+                    <span>Login</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- nav bar end here -->
+    </header>
+
+    <!-- header end here -->
+
+    <!-- main start from here -->
+    <main class="flex">
+
+        <div class="blur-div"></div>
+        <div class="second-blur"></div>
+
+
+        <!--this is  the first page means home page section  -->
+        <section class="home-page flex">
+            <div class="right-side flex">
+                <div class="description-para-container">
+                    <h1 class="about-description">
+                        Savor Signature Dishes Every Time, With Lightning-<span>Fast Delivery</span> to Your Doorstep!
+                        <img src="" alt="">
+                    </h1>
+                    <p class="paragraph">
+                        Enjoy quick and reliable delivery of our delicious and healthy pizzas. Order your favorites
+                        anytime, anywhere.
+                    </p>
+                </div>
+
+                <div class="get-start-order-video-btn flex">
+                    <button class="get-start-btn flex">
+                        <a href="#">Get Started</a>
+                    </button>
+
+                    <button class="order-video-btn flex">
+                        <span class="icon flex">
+                            <span class="play-icon">▶</span>
+                        </span>
+                        How To Order!
+                    </button>
+                </div>
+
+                <div class="reviews-item-restaurants-container flex">
+                    <div class="review-item flex">
+                        <div class="medal-logo">
+                            <img src="assests/images/logo/medal.png" alt="Medal Logo">
+                        </div>
+                        <div class="review-details flex">
+                            <p style="color: #fff;" class="review-count">350K Reviews</p>
+                            <p style="color: #fff;" class="review-rating">(4.8)</p>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="review-item flex">
+                        <div class="food-logo">
+                            <img src="assests/images/logo/diet.png" alt="Diet Logo">
+                        </div>
+                        <div class="review-details flex">
+                            <p style="color: #fff;" class="food-count">8000+ Food</p>
+                            <p style="color: #fff;" class="food-items">Items</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="review-item flex">
+                        <div class="store-logo">
+                            <img src="assests/images/logo/store.png" alt="Store Logo">
+                        </div>
+                        <div class="review-details flex">
+                            <p style="color: #fff;" class="restaurant-count">3000+</p>
+                            <p style="color: #fff;" class="restaurant-items">Restaurants</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leaf-container"><img src="assests/images/logo/tropical-leaves.png" alt="">
+                </div>
+            </div>
+            <!-- right side of the home page end here -->
+
+            <!-- left side of the home page start here -->
+            <div class="left-side flex">
+
+                <div class="like-box">
+                    <span class="heart"><i class="fa-solid fa-heart"></i></span>
+                    <span class="like-count">22</span>
+                  </div>
+
+                  <div class="pizza-item">
+                    <img src="assests/images/FoodPhotos/pizza1.png" alt="Pizza Image">
+                    <div class="pizza-details">
+                        <h4>Beef Cheese Pizza</h4>
+                        <span>$9.99</span>
+                    </div>
+                </div>
+                  
+                <div class="delivery-item">
+                    <img src="assests/images/logo/delivery.png" alt="Pizza Image">
+                    <div class="pizza-details">
+                        <h4>Beef Cheese Pizza</h4>
+                        <span>$9.99</span>
+                    </div>
+                </div>
+
+                <img src="assests/images/WaitersImage/first chef.png" alt="">
+
+            </div>
+            <!-- left side of the home page end here -->
+
+        </section>
+
+        <section class="hottest-dish-page flex">
+            <h1 class="title">Our New Hottest Dish</h1>
+
+            <div class="all-dish-container flex">
+                <!-- add your dish here -->
+
+
+                <div class="dish-card-container flex">
+
+                    <div class="fav-logo-div flex"><i class="fa-regular fa-heart"></i></div>
+
+                    <div class="dish-image-div">
+                        <img src="assests/images/FoodPhotos/pizza1.png" alt="Dish 1">
+                    </div>
+
+                    <div class="dish-name-div">
+                        <h4>Pepperoni Pizza</h4>
+                        <p>Freash Beef</p>
+                    </div>
+
+                    <div class="separate-line"></div>
+
+                    <div class="rating-price-container">
+                        <div class="rating-div flex">
+                            <div class="checked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <div class="notchecked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dish-card-container flex">
+
+                    <div class="fav-logo-div flex"><i class="fa-regular fa-heart"></i></div>
+
+                    <div class="dish-image-div">
+                        <img src="assests/images/FoodPhotos/pizza1.png" alt="Dish 1">
+                    </div>
+
+                    <div class="dish-name-div">
+                        <h4>Pepperoni Pizza</h4>
+                        <p>Freash Beef</p>
+                    </div>
+
+                    <div class="separate-line"></div>
+
+                    <div class="rating-price-container">
+                        <div class="rating-div flex">
+                            <div class="checked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <div class="notchecked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="dish-card-container flex">
+
+                    <div class="fav-logo-div flex"><i class="fa-regular fa-heart"></i></div>
+
+                    <div class="dish-image-div">
+                        <img src="assests/images/FoodPhotos/pizza1.png" alt="Dish 1">
+                    </div>
+
+                    <div class="dish-name-div">
+                        <h4>Pepperoni Pizza</h4>
+                        <p>Freash Beef</p>
+                    </div>
+
+                    <div class="separate-line"></div>
+
+                    <div class="rating-price-container">
+                        <div class="rating-div flex">
+                            <div class="checked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <div class="notchecked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dish-card-container flex">
+
+                    <div class="fav-logo-div flex"><i class="fa-regular fa-heart"></i></div>
+
+                    <div class="dish-image-div">
+                        <img src="assests/images/FoodPhotos/pizza1.png" alt="Dish 1">
+                    </div>
+
+                    <div class="dish-name-div">
+                        <h4>Pepperoni Pizza</h4>
+                        <p>Freash Beef</p>
+                    </div>
+
+                    <div class="separate-line"></div>
+
+                    <div class="rating-price-container">
+                        <div class="rating-div flex">
+                            <div class="checked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <div class="notchecked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dish-card-container flex">
+
+                    <div class="fav-logo-div flex"><i class="fa-regular fa-heart"></i></div>
+
+                    <div class="dish-image-div">
+                        <img src="assests/images/FoodPhotos/pizza1.png" alt="Dish 1">
+                    </div>
+
+                    <div class="dish-name-div">
+                        <h4>Pepperoni Pizza</h4>
+                        <p>Freash Beef</p>
+                    </div>
+
+                    <div class="separate-line"></div>
+
+                    <div class="rating-price-container">
+                        <div class="rating-div flex">
+                            <div class="checked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <div class="notchecked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="dish-card-container flex">
+
+                    <div class="fav-logo-div flex"><i class="fa-regular fa-heart"></i></div>
+
+                    <div class="dish-image-div">
+                        <img src="assests/images/FoodPhotos/pizza1.png" alt="Dish 1">
+                    </div>
+
+                    <div class="dish-name-div">
+                        <h4>Pepperoni Pizza</h4>
+                        <p>Freash Beef</p>
+                    </div>
+
+                    <div class="separate-line"></div>
+
+                    <div class="rating-price-container">
+                        <div class="rating-div flex">
+                            <div class="checked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+
+                            <div class="notchecked-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class="get-started flex">
+
+            <div class="left-side-get flex">
+                <div class="circle">
+                    <span class="old-women-heart"><i class="fa-solid fa-heart"></i><p class="likecount">22</p></span>
+
+                    <div class="pizza-item items">
+                        <img src="assests/images/FoodPhotos/pizza1.png" alt="Pizza Image">
+                        <div class="pizza-details">
+                            <h4>Beef Cheese Pizza</h4>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+                      
+                    <div class="delivery-item">
+                        <img src="assests/images/logo/delivery.png" alt="Pizza Image">
+                        <div class="pizza-details">
+                            <h4>Beef Cheese Pizza</h4>
+                            <span>$9.99</span>
+                        </div>
+                    </div>
+
+                    <img class="old-women-leaf" src="assests/images/logo/tropical-leaves.png" alt="">
+                </div>
+            </div>
+
+            <div class="right-side-get flex">
+                <h1 class="heading">Get Started Today!</h1>
+
+                <div class="discription-para">
+
+                    <h3 class="discription">Everything you need to bulid an amazing food restaurant responsive website
+                    </h3>
+
+                    <p class="para">Enjoy restaurant-quality meals at home with We Servicing. Simply tap on your phone
+                        or click on your computer to explore a wide range of delicious options customized to your taste.
+                    </p>
+                </div>
+
+                <div class="food-order-leaf-div flex">
+                    <div class="food-order-box flex">
+
+                        <img src="assests/images/FoodPhotos/pizza1.png" alt="">
+
+                        <h5 class="food-order-text">Food Order</h5>
+
+                        <p class="para-food-order">Food is essential for health, providing proteins, energy, and
+                            supporting growth.</p>
+                    </div>
+                    <div class="promte-rest-box flex">
+                        <img src="assests/images/logo/store.png" alt="">
+
+                        <h5 class="promte-rest-text">Promote Restaurant</h5>
+
+                        <p class="para-promte-rest">Promoting your restaurant to the local community can help attract
+                            more customers and generate income.</p>
+
+                    </div>
+                    <img class="leaf-img" src="assests/images/logo/tropical-leaves.png" alt="">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="best-team flex">
+            <h1 class="team-heading">Meet Our Best Team</h1>
+
+            <div class="team-member-card-container">
+
+                <div class="team-member-card">
+                    <img src="assests/images/WaitersImage/team1.jpg" alt="Team Member 1">
+                    <h4>Michael Rossi</h4>
+                    <p>Head Waiter</p>
+                </div>
+                
+                <div class="team-member-card">
+                    <img src="assests/images/WaitersImage/team2.jpg" alt="Team Member 2">
+                    <h4>Sarah Johnson</h4>
+                    <p>Waitress</p>
+                </div>
+                
+                <div class="team-member-card">
+                    <img src="assests/images/WaitersImage/team3.jpg" alt="Team Member 3">
+                    <h4>David Martinez</h4>
+                    <p>Waiter</p>
+                </div>
+                
+                <div class="team-member-card">
+                    <img src="assests/images/WaitersImage/team4.jpg" alt="Team Member 4">
+                    <h4>Emma Brown</h4>
+                    <p>Waitress</p>
+                </div>
+
+                
+            </div>
+        </section>
+
+
+    </main>
+    <!-- main end here -->
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section logo flex">
+            <img src="assests/images/logo/foodlogo.png" alt="Logo">
+            <p>Book your trip in minutes, get full control for much longer.</p>
+          </div>
+          <div class="footer-section company">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Mobile</a></li>
+            </ul>
+          </div>
+          <div class="footer-section contact">
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="#">Help/FAQ</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Affiliates</a></li>
+            </ul>
+          </div>
+          <div class="footer-section more">
+            <h3>More</h3>
+            <ul>
+              <li><a href="#">Airline Fees</a></li>
+              <li><a href="#">Airlines</a></li>
+              <li><a href="#">Low Fare Tips</a></li>
+            </ul>
+          </div>
+          <div class="footer-section social">
+            <h3>Discover our app</h3>
+            <div class="app-links">
+              <a href="#"><img src="assests/images/logo/google-play.webp" alt="Google Play"></a>
+              <a href="#"><img src="assests/images/logo/app-store-removebg-preview.png" alt="App Store"></a>
+            </div>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Some  JavaScript -->
+    <script>
+        // Handle navigation link clicks
+        let navLinks = document.querySelectorAll('.nav-links-item');
+        navLinks.forEach(item => {
+            item.addEventListener('click', () => {
+                navLinks.forEach(el => el.classList.remove('active'));
+                item.classList.add('active');
+            });
+        });
+
+        // Handle link color changes
+        let linkElements = document.querySelectorAll('.link');
+        linkElements.forEach(link => {
+            link.addEventListener('click', () => {
+                linkElements.forEach(el => el.style.color = "");
+                link.style.color = '#fff';
+            });
+        });
+    </script>
+</body>
+
+</html>
